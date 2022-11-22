@@ -23,6 +23,9 @@
   }
 }
 
+body {
+	background-color: #d8c694;
+}
 
 .item {
   float: left;
