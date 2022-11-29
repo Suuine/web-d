@@ -1,0 +1,100 @@
+h1
+        {
+            text-align: center;
+            font-size: 22px;
+        }
+        ul > li:nth-child(odd)
+        {
+            text-decoration: none;
+            background-color: grey;
+            color: black;
+        }
+        ol>li:nth-child(4)
+        {
+            background-color: rgb(218, 51, 51);
+            color: black;
+        }
+        
+        
+        ol > li:nth-child(3):hover
+        {
+            cursor: pointer;
+        }
+        ol > li:nth-child(5):hover
+        {
+            cursor: pointer;
+        }
+        ul> li>ul:nth-child(odd)
+        {
+            background-color: white;
+        }
+        ul > li > ul >li:nth-child(odd)
+        {
+            background-color: rgb(114, 109, 115);
+            color: black;
+        }
+        .x
+        {
+            background-color: gray;
+        }
+        .eee
+        {
+            font-style: italic;
+        }
+        h2
+        {
+            text-align: center;
+            
+        }
+
+
+
+  .row 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 992px) 
+{
+    #block1 
+    {
+        float:left;
+        display:flex;
+        width: 500px;
+        border: 1px solid rgb(255, 255, 255);
+        margin: 2px;
+    }
+    #block2 
+    {
+        float: left;
+        display: flex;
+        width: 500px;
+        border: 1px solid rgb(255, 255, 255);
+        margin: 2px;
+    }
+    .col-lg-6 
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) 
+{
+    
+    .col-md-12 
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .col-sm-12 
+    {
+        width: 100%;
+    }
+}

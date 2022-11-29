@@ -1,0 +1,72 @@
+h1, h2
+  {
+    text-align: center;
+  }
+  .eee
+  {
+    font-style: italic;
+  }
+  .hq
+  {
+    text-align: center;
+    font-size: 70%;
+  }
+  
+  .hw
+  {
+    text-align: center;
+    font-size: 130%;
+  }
+  .he
+  {
+    text-align: center;
+    font-size: 169%;
+  }
+  
+
+@media (min-width: 992px)
+{
+    .img 
+  {
+    display: block;
+    float: left;
+  }
+    .col-lg-4
+    {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) 
+{
+    .img 
+  {
+    display: block;
+    float: left;
+  }
+    
+
+    .col-md-6 
+    {
+        width: 50%;
+    }
+
+    .col-md-12 
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .img 
+  {
+    display: block;
+    float: left;
+  }
+
+    .col-sm-12 
+    {
+        width: 100%;
+    }
+}

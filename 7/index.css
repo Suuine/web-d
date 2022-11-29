@@ -1,0 +1,85 @@
+h1 
+  {
+    text-align: center;
+    font-size: 22px;
+  }
+  p
+  {
+    font-size: 120%;
+  }
+  a 
+  {
+    color: green;
+  }
+  a:visited
+  {
+    color:rgb(233, 230, 31);
+  }
+  a:hover 
+  {
+      color:blue;
+  }
+
+  .row 
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    position: fixed;
+}
+
+.item 
+{
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 0;
+    background-color: rgb(164, 132, 93);
+}
+
+a 
+{
+    font-size: 34px;
+    padding: 20px 0;
+}
+
+@media (min-width: 992px)
+{
+    
+    .col-lg-4
+    {
+        width: 25%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) 
+{
+    .row 
+    {
+        flex-wrap: wrap;
+    }
+
+    .col-md-6 
+    {
+        width: 50%;
+    }
+
+    .col-md-12 
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .row 
+    {
+        
+        flex-direction: column;
+    }
+
+    .col-sm-12 
+    {
+        width: 100%;
+    }
+}
